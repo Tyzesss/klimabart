@@ -23,9 +23,9 @@ const STEPS = [
   {
     step: 3,
     icon: Wrench,
-    title: "Wizyta serwisowa",
-    desc: "Dojazd do klienta, diagnoza na miejscu i naprawa lub przegląd — koszt ustalamy po diagnozie, przed rozpoczęciem naprawy.",
-    descShort: "Dojazd, diagnoza i naprawa — koszt po diagnozie, przed naprawą.",
+    title: "Montaż lub serwis",
+    desc: "Wizyta na miejscu, dobór rozwiązania i montaż lub naprawa — wycenę przedstawimy przed rozpoczęciem prac.",
+    descShort: "Wizyta, dobór rozwiązania i montaż — wycena przed rozpoczęciem prac.",
   },
 ] as const;
 
@@ -124,7 +124,7 @@ export function HowItWorks() {
             <p className="section-eyebrow">Proces</p>
             <h2 className="mt-1.5 text-xl font-bold text-white md:mt-2 md:text-3xl">Jak to działa?</h2>
             <p className="mx-auto mt-1.5 max-w-xl text-xs text-white/75 md:mt-2 md:text-base">
-              Od zgłoszenia do sprawnego kotła lub pompy ciepła.
+              Od zgłoszenia do działającej klimatyzacji lub wentylacji.
             </p>
           </Reveal>
 

@@ -12,6 +12,8 @@ import {
   Flame,
   AlertTriangle,
   CheckCircle2,
+  Snowflake,
+  Wind,
   Menu,
   X,
   Star,
@@ -105,6 +107,8 @@ const SERVICE_ICONS: Record<ServiceIcon, typeof Wrench> = {
   "alert-triangle": AlertTriangle,
   "check-circle": CheckCircle2,
   flame: Flame,
+  snowflake: Snowflake,
+  wind: Wind,
 };
 
 const services = SERVICES.map((s) => ({ ...s, icon: SERVICE_ICONS[s.icon] }));

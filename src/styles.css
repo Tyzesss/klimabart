@@ -53,47 +53,47 @@
 :root {
   --radius: 0.875rem;
 
-  /* Layer 0–2: dark surfaces */
-  --background: oklch(0.11 0.032 252);
-  --foreground: oklch(0.96 0.012 252);
-  --card: oklch(0.17 0.04 252);
-  --card-foreground: oklch(0.96 0.012 252);
-  --popover: oklch(0.17 0.04 252);
-  --popover-foreground: oklch(0.96 0.012 252);
-  --primary: oklch(0.50 0.14 252);
+  /* Layer 0–2: dark surfaces — odcień granatowy z logo KLIMA BART */
+  --background: oklch(0.11 0.034 262);
+  --foreground: oklch(0.96 0.012 262);
+  --card: oklch(0.17 0.042 262);
+  --card-foreground: oklch(0.96 0.012 262);
+  --popover: oklch(0.17 0.042 262);
+  --popover-foreground: oklch(0.96 0.012 262);
+  --primary: oklch(0.52 0.19 262);
   --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.14 0.035 252);
-  --secondary-foreground: oklch(0.92 0.02 252);
-  --muted: oklch(0.15 0.032 252);
-  --muted-foreground: oklch(0.68 0.04 252);
-  --accent: oklch(0.62 0.16 252);
-  --accent-foreground: oklch(0.11 0.032 252);
+  --secondary: oklch(0.14 0.038 262);
+  --secondary-foreground: oklch(0.92 0.02 262);
+  --muted: oklch(0.15 0.034 262);
+  --muted-foreground: oklch(0.68 0.04 262);
+  --accent: oklch(0.58 0.21 28);
+  --accent-foreground: oklch(0.11 0.034 262);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
   --border: oklch(1 0 0 / 0.12);
-  --input: oklch(0.20 0.04 252);
-  --ring: oklch(0.62 0.16 252);
+  --input: oklch(0.20 0.042 262);
+  --ring: oklch(0.62 0.18 262);
 
-  /* Brand palette — dostosuj do klienta */
-  --brand-deep: oklch(0.09 0.03 252);
-  --brand-navy: oklch(0.16 0.05 252);
-  --brand-teal: oklch(0.47 0.13 252);
-  --brand-cyan: oklch(0.62 0.16 252);
-  --brand-ice: oklch(0.18 0.04 252);
+  /* Brand palette — niebieski (chłód) + czerwień (ciepło) z logo KLIMA BART */
+  --brand-deep: oklch(0.09 0.032 262);
+  --brand-navy: oklch(0.16 0.052 262);
+  --brand-teal: oklch(0.46 0.17 262);
+  --brand-cyan: oklch(0.64 0.18 262);
+  --brand-ice: oklch(0.18 0.042 262);
 
-  /* CTA */
-  --cta: oklch(0.50 0.14 252);
-  --cta-hover: oklch(0.56 0.15 252);
+  /* CTA — królewski niebieski z logo */
+  --cta: oklch(0.52 0.20 262);
+  --cta-hover: oklch(0.58 0.21 262);
   --cta-foreground: oklch(0.99 0 0);
 
   --gradient-hero: linear-gradient(
     135deg,
-    oklch(0.09 0.03 252) 0%,
-    oklch(0.14 0.05 252) 52%,
-    oklch(0.11 0.032 252) 100%
+    oklch(0.09 0.032 262) 0%,
+    oklch(0.14 0.052 262) 52%,
+    oklch(0.11 0.034 262) 100%
   );
-  --gradient-cool: linear-gradient(180deg, oklch(0.13 0.035 252) 0%, oklch(0.11 0.032 252) 100%);
-  --gradient-accent: linear-gradient(135deg, var(--cta), var(--brand-cyan));
+  --gradient-cool: linear-gradient(180deg, oklch(0.13 0.038 262) 0%, oklch(0.11 0.034 262) 100%);
+  --gradient-accent: linear-gradient(135deg, oklch(0.55 0.22 28), oklch(0.52 0.20 262));
   --gradient-radial: radial-gradient(circle at 30% 20%, color-mix(in oklch, var(--cta) 18%, transparent), transparent 60%);
 
   --ambient-blue: var(--brand-teal);
@@ -119,17 +119,17 @@
   --transition-smooth: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
   --transition-spring: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
-  --chart-1: oklch(0.50 0.14 252);
-  --chart-2: oklch(0.62 0.16 252);
-  --chart-3: oklch(0.47 0.13 252);
-  --chart-4: oklch(0.32 0.06 252);
-  --chart-5: oklch(0.55 0.12 252);
-  --sidebar: oklch(0.12 0.03 252);
-  --sidebar-foreground: oklch(0.95 0.012 252);
-  --sidebar-primary: oklch(0.50 0.14 252);
+  --chart-1: oklch(0.52 0.20 262);
+  --chart-2: oklch(0.64 0.18 262);
+  --chart-3: oklch(0.46 0.17 262);
+  --chart-4: oklch(0.32 0.06 262);
+  --chart-5: oklch(0.55 0.21 28);
+  --sidebar: oklch(0.12 0.032 262);
+  --sidebar-foreground: oklch(0.95 0.012 262);
+  --sidebar-primary: oklch(0.52 0.20 262);
   --sidebar-primary-foreground: oklch(0.99 0 0);
-  --sidebar-accent: oklch(0.18 0.04 252);
-  --sidebar-accent-foreground: oklch(0.95 0.012 252);
+  --sidebar-accent: oklch(0.18 0.042 262);
+  --sidebar-accent-foreground: oklch(0.95 0.012 262);
   --sidebar-border: oklch(1 0 0 / 0.1);
   --sidebar-ring: oklch(0.62 0.16 252);
 }

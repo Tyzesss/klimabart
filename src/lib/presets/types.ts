@@ -20,7 +20,9 @@ export type ServiceIcon =
   | "zap"
   | "alert-triangle"
   | "check-circle"
-  | "flame";
+  | "flame"
+  | "snowflake"
+  | "wind";
 
 export type ServiceItem = {
   icon: ServiceIcon;

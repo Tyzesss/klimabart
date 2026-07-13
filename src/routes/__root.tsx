@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "keywords", content: SITE_KEYWORDS },
       { name: "robots", content: "index, follow" },
       { name: "author", content: SITE_NAME },
-      { name: "theme-color", content: "#1a2d45" },
+      { name: "theme-color", content: "#141d33" },
       { property: "og:title", content: SITE_TITLE },
       { property: "og:description", content: SITE_DESCRIPTION },
       { property: "og:type", content: "website" },
