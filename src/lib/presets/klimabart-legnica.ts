@@ -26,7 +26,7 @@ export const klimabartLegnicaPreset: SitePreset = {
   nip: "691-12-56-345",
   regon: "020550771",
   hours: "Pn - Pt: 8:00 - 16:00",
-  logoUrl: "/logo.jpg",
+  logoUrl: "/logo.png",
   logoIncludesName: true,
   faviconUrl: "/favicon.png",
   heroImage: "/gallery/hero.webp",
