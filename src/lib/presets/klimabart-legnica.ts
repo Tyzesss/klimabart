@@ -28,7 +28,7 @@ export const klimabartLegnicaPreset: SitePreset = {
   hours: "Pn - Pt: 8:00 - 16:00",
   logoUrl: "/logo.png",
   logoIncludesName: true,
-  faviconUrl: "/favicon.png",
+  faviconUrl: "/favicon.svg",
   heroImage: "/gallery/hero.webp",
   siteTitle: `Klimatyzacja ${siteCity} | ${siteName}`,
   siteKeywords:
